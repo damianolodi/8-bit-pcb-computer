@@ -1,0 +1,292 @@
+EESchema Schematic File Version 4
+LIBS:clock-module-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Timer:LM555 U?
+U 1 1 5D27ED24
+P 5860 4140
+AR Path="/5D27ED24" Ref="U?"  Part="1" 
+AR Path="/5D26F003/5D27ED24" Ref="U?"  Part="1" 
+F 0 "U?" H 6110 4600 50  0000 C CNN
+F 1 "LM555" H 6090 4510 50  0000 C CNN
+F 2 "" H 5860 4140 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 5860 4140 50  0001 C CNN
+	1    5860 4140
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D27ED2A
+P 4790 4460
+AR Path="/5D27ED2A" Ref="C?"  Part="1" 
+AR Path="/5D26F003/5D27ED2A" Ref="C?"  Part="1" 
+F 0 "C?" H 4820 4550 50  0000 L CNN
+F 1 "0.01uF" H 4810 4370 50  0000 L CNN
+F 2 "" H 4828 4310 50  0001 C CNN
+F 3 "~" H 4790 4460 50  0001 C CNN
+	1    4790 4460
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D27ED30
+P 8520 2300
+AR Path="/5D27ED30" Ref="C?"  Part="1" 
+AR Path="/5D26F003/5D27ED30" Ref="C?"  Part="1" 
+F 0 "C?" H 8635 2346 50  0000 L CNN
+F 1 "0.1uF" H 8635 2255 50  0000 L CNN
+F 2 "" H 8558 2150 50  0001 C CNN
+F 3 "~" H 8520 2300 50  0001 C CNN
+	1    8520 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D27ED36
+P 5130 3670
+AR Path="/5D27ED36" Ref="R?"  Part="1" 
+AR Path="/5D26F003/5D27ED36" Ref="R?"  Part="1" 
+F 0 "R?" H 5200 3716 50  0000 L CNN
+F 1 "1k" H 5200 3625 50  0000 L CNN
+F 2 "" V 5060 3670 50  0001 C CNN
+F 3 "~" H 5130 3670 50  0001 C CNN
+	1    5130 3670
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D27ED3C
+P 6580 3570
+AR Path="/5D27ED3C" Ref="R?"  Part="1" 
+AR Path="/5D26F003/5D27ED3C" Ref="R?"  Part="1" 
+F 0 "R?" H 6650 3616 50  0000 L CNN
+F 1 "1M" H 6650 3525 50  0000 L CNN
+F 2 "" V 6510 3570 50  0001 C CNN
+F 3 "~" H 6580 3570 50  0001 C CNN
+	1    6580 3570
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D27ED42
+P 4680 3940
+AR Path="/5D27ED42" Ref="SW?"  Part="1" 
+AR Path="/5D26F003/5D27ED42" Ref="SW?"  Part="1" 
+F 0 "SW?" H 4680 4225 50  0000 C CNN
+F 1 "SW_Push" H 4680 4134 50  0000 C CNN
+F 2 "" H 4680 4140 50  0001 C CNN
+F 3 "~" H 4680 4140 50  0001 C CNN
+	1    4680 3940
+	1    0    0    -1  
+$EndComp
+Text Notes 4430 1850 0    79   ~ 16
+Monostable LMC555 Timer
+$Comp
+L Device:CP C?
+U 1 1 5D27EF7E
+P 8980 2310
+F 0 "C?" H 9098 2356 50  0000 L CNN
+F 1 "1uF" H 9098 2265 50  0000 L CNN
+F 2 "" H 9018 2160 50  0001 C CNN
+F 3 "~" H 8980 2310 50  0001 C CNN
+	1    8980 2310
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D284C5B
+P 8520 1970
+F 0 "#PWR?" H 8520 1820 50  0001 C CNN
+F 1 "+5V" H 8535 2143 50  0000 C CNN
+F 2 "" H 8520 1970 50  0001 C CNN
+F 3 "" H 8520 1970 50  0001 C CNN
+	1    8520 1970
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D28683E
+P 6580 4670
+AR Path="/5D28683E" Ref="C?"  Part="1" 
+AR Path="/5D26F003/5D28683E" Ref="C?"  Part="1" 
+F 0 "C?" H 6695 4716 50  0000 L CNN
+F 1 "0.1uF" H 6695 4625 50  0000 L CNN
+F 2 "" H 6618 4520 50  0001 C CNN
+F 3 "~" H 6580 4670 50  0001 C CNN
+	1    6580 4670
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D28722A
+P 5860 3640
+F 0 "#PWR?" H 5860 3490 50  0001 C CNN
+F 1 "+5V" H 5875 3813 50  0000 C CNN
+F 2 "" H 5860 3640 50  0001 C CNN
+F 3 "" H 5860 3640 50  0001 C CNN
+	1    5860 3640
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D287ACE
+P 6590 3330
+F 0 "#PWR?" H 6590 3180 50  0001 C CNN
+F 1 "+5V" H 6605 3503 50  0000 C CNN
+F 2 "" H 6590 3330 50  0001 C CNN
+F 3 "" H 6590 3330 50  0001 C CNN
+	1    6590 3330
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D28807D
+P 5270 4340
+F 0 "#PWR?" H 5270 4190 50  0001 C CNN
+F 1 "+5V" V 5270 4450 50  0000 L CNN
+F 2 "" H 5270 4340 50  0001 C CNN
+F 3 "" H 5270 4340 50  0001 C CNN
+	1    5270 4340
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D28A334
+P 4790 4730
+F 0 "#PWR?" H 4790 4480 50  0001 C CNN
+F 1 "GND" H 4795 4557 50  0000 C CNN
+F 2 "" H 4790 4730 50  0001 C CNN
+F 3 "" H 4790 4730 50  0001 C CNN
+	1    4790 4730
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D28A92A
+P 6580 4930
+F 0 "#PWR?" H 6580 4680 50  0001 C CNN
+F 1 "GND" H 6585 4757 50  0000 C CNN
+F 2 "" H 6580 4930 50  0001 C CNN
+F 3 "" H 6580 4930 50  0001 C CNN
+	1    6580 4930
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D28AEA2
+P 5860 4680
+F 0 "#PWR?" H 5860 4430 50  0001 C CNN
+F 1 "GND" H 5865 4507 50  0000 C CNN
+F 2 "" H 5860 4680 50  0001 C CNN
+F 3 "" H 5860 4680 50  0001 C CNN
+	1    5860 4680
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D28C940
+P 5130 3410
+F 0 "#PWR?" H 5130 3260 50  0001 C CNN
+F 1 "+5V" H 5145 3583 50  0000 C CNN
+F 2 "" H 5130 3410 50  0001 C CNN
+F 3 "" H 5130 3410 50  0001 C CNN
+	1    5130 3410
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D28D4DC
+P 4250 4020
+F 0 "#PWR?" H 4250 3770 50  0001 C CNN
+F 1 "GND" H 4255 3847 50  0000 C CNN
+F 2 "" H 4250 4020 50  0001 C CNN
+F 3 "" H 4250 4020 50  0001 C CNN
+	1    4250 4020
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5860 4540 5860 4680
+Wire Wire Line
+	5270 4340 5360 4340
+Wire Wire Line
+	4790 4310 4790 4140
+Wire Wire Line
+	4790 4140 5360 4140
+Wire Wire Line
+	4790 4610 4790 4730
+Wire Wire Line
+	4880 3940 5130 3940
+Wire Wire Line
+	5130 3820 5130 3940
+Connection ~ 5130 3940
+Wire Wire Line
+	5130 3940 5360 3940
+Wire Wire Line
+	4250 4020 4250 3940
+Wire Wire Line
+	4250 3940 4480 3940
+Wire Wire Line
+	5130 3410 5130 3520
+Wire Wire Line
+	5860 3640 5860 3740
+Wire Wire Line
+	6360 4340 6580 4340
+Wire Wire Line
+	6580 4340 6580 4520
+Wire Wire Line
+	6580 3720 6580 4140
+Connection ~ 6580 4340
+Wire Wire Line
+	6360 4140 6580 4140
+Connection ~ 6580 4140
+Wire Wire Line
+	6580 4140 6580 4340
+Wire Wire Line
+	6360 3940 6840 3940
+Text GLabel 6840 3940 2    50   Input ~ 0
+MONOSTABLE-OUT
+Wire Wire Line
+	6580 4930 6580 4820
+$Comp
+L power:GND #PWR?
+U 1 1 5D2905B3
+P 8520 2610
+F 0 "#PWR?" H 8520 2360 50  0001 C CNN
+F 1 "GND" H 8525 2437 50  0000 C CNN
+F 2 "" H 8520 2610 50  0001 C CNN
+F 3 "" H 8520 2610 50  0001 C CNN
+	1    8520 2610
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8520 2610 8520 2530
+Wire Wire Line
+	8520 1970 8520 2050
+Wire Wire Line
+	8520 2050 8980 2050
+Wire Wire Line
+	8980 2050 8980 2160
+Connection ~ 8520 2050
+Wire Wire Line
+	8520 2050 8520 2150
+Wire Wire Line
+	8980 2460 8980 2530
+Wire Wire Line
+	8980 2530 8520 2530
+Connection ~ 8520 2530
+Wire Wire Line
+	8520 2530 8520 2450
+$EndSCHEMATC
