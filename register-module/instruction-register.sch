@@ -984,6 +984,7 @@ P 3600 3675
 AR Path="/5D2C3550/5D404F09" Ref="U?"  Part="1" 
 AR Path="/5D3D7580/5D404F09" Ref="U?"  Part="1" 
 AR Path="/5D3F6C40/5D404F09" Ref="U7"  Part="1" 
+AR Path="/5D404F09" Ref="U7"  Part="1" 
 F 0 "U7" V 3900 2875 50  0000 C CNN
 F 1 "74HC245" V 3800 2850 50  0000 C CNN
 F 2 "" H 3600 3675 50  0001 C CNN
@@ -1009,6 +1010,13 @@ Wire Wire Line
 	3100 4300 3100 4175
 Wire Wire Line
 	3100 4175 3200 4175
+Connection ~ 3100 4175
+Connection ~ 3200 4175
+Wire Wire Line
+	3200 4175 3300 4175
+Connection ~ 3300 4175
+Wire Wire Line
+	3300 4175 3400 4175
 Wire Bus Line
 	3625 5275 6200 5275
 Wire Bus Line
@@ -1019,11 +1027,4 @@ Wire Bus Line
 	1875 4575 9100 4575
 Wire Bus Line
 	1875 2800 9100 2800
-Connection ~ 3100 4175
-Connection ~ 3200 4175
-Wire Wire Line
-	3200 4175 3300 4175
-Connection ~ 3300 4175
-Wire Wire Line
-	3300 4175 3400 4175
 $EndSCHEMATC

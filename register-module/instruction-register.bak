@@ -978,12 +978,13 @@ Wire Wire Line
 Wire Wire Line
 	3500 4175 3500 4475
 $Comp
-L modified-components-symbols:74HC245-mod U?
+L register-module-rescue:74HC245-mod-modified-components-symbols U?
 U 1 1 5D404F09
 P 3600 3675
 AR Path="/5D2C3550/5D404F09" Ref="U?"  Part="1" 
 AR Path="/5D3D7580/5D404F09" Ref="U?"  Part="1" 
 AR Path="/5D3F6C40/5D404F09" Ref="U7"  Part="1" 
+AR Path="/5D404F09" Ref="U7"  Part="1" 
 F 0 "U7" V 3900 2875 50  0000 C CNN
 F 1 "74HC245" V 3800 2850 50  0000 C CNN
 F 2 "" H 3600 3675 50  0001 C CNN
