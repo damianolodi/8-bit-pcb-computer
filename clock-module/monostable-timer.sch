@@ -280,7 +280,7 @@ F 3 "~" H 9125 4925 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9125 5075 9125 5275
-Text GLabel 6700 3825 2    50   Input ~ 0
+Text GLabel 6700 3825 2    50   Output ~ 0
 MONOSTABLE-OUT
 Wire Wire Line
 	6450 3175 6450 3275

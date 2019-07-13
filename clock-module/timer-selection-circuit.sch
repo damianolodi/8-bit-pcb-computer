@@ -24,7 +24,7 @@ Text Notes 625  4300 0    79   ~ 16
 Debounced Switch
 Text Notes 625  700  0    79   ~ 16
 Timer Selection Circuit
-Text GLabel 5700 2575 2    50   Input ~ 0
+Text GLabel 5700 2575 2    50   Output ~ 0
 CLK-OUT
 Wire Wire Line
 	5600 2575 5700 2575

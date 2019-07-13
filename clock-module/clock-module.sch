@@ -110,7 +110,7 @@ F 3 "~" H 7025 1450 50  0001 C CNN
 $EndComp
 Connection ~ 7025 1450
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x04 J?
 U 1 1 5D29DA49
 P 9950 1425
 F 0 "J?" H 10030 1467 50  0000 L CNN
@@ -201,4 +201,86 @@ Wire Wire Line
 	7450 4000 7450 4200
 Wire Wire Line
 	7450 4500 7450 4625
+Wire Notes Line
+	8525 2900 8525 6525
+Text Notes 8650 3175 0    79   ~ 16
+Clock Inverter
+Text GLabel 9025 4575 0    50   Input ~ 0
+CLK-OUT
+$Comp
+L Device:Q_NMOS_DGS Q?
+U 1 1 5D2BBA8E
+P 9500 4850
+F 0 "Q?" H 9706 4896 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 9706 4805 50  0000 L CNN
+F 2 "" H 9700 4950 50  0001 C CNN
+F 3 "~" H 9500 4850 50  0001 C CNN
+	1    9500 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 5D2BC068
+P 9500 4325
+F 0 "Q?" H 9706 4371 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 9706 4280 50  0000 L CNN
+F 2 "" H 9700 4425 50  0001 C CNN
+F 3 "~" H 9500 4325 50  0001 C CNN
+	1    9500 4325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D2BD4A8
+P 9600 5300
+F 0 "#PWR?" H 9600 5050 50  0001 C CNN
+F 1 "GND" H 9605 5127 50  0000 C CNN
+F 2 "" H 9600 5300 50  0001 C CNN
+F 3 "" H 9600 5300 50  0001 C CNN
+	1    9600 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D2BD8BB
+P 9600 3975
+F 0 "#PWR?" H 9600 3825 50  0001 C CNN
+F 1 "+5V" H 9615 4148 50  0000 C CNN
+F 2 "" H 9600 3975 50  0001 C CNN
+F 3 "" H 9600 3975 50  0001 C CNN
+	1    9600 3975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9025 4575 9200 4575
+Wire Wire Line
+	9200 4575 9200 4325
+Wire Wire Line
+	9200 4325 9300 4325
+Wire Wire Line
+	9300 4850 9200 4850
+Wire Wire Line
+	9200 4850 9200 4575
+Connection ~ 9200 4575
+Wire Wire Line
+	9600 4125 9600 3975
+Wire Wire Line
+	9600 4525 9600 4575
+Wire Wire Line
+	9600 5300 9600 5050
+Wire Wire Line
+	9600 4575 10025 4575
+Connection ~ 9600 4575
+Wire Wire Line
+	9600 4575 9600 4650
+Text GLabel 10025 4575 2    50   Output ~ 0
+~CLK-OUT
+Text GLabel 9475 1675 0    50   Input ~ 0
+~CLK-OUT
+Wire Wire Line
+	9475 1675 9625 1675
+Wire Wire Line
+	9625 1675 9625 1625
+Wire Wire Line
+	9625 1625 9750 1625
 $EndSCHEMATC

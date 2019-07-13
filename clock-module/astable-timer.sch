@@ -263,7 +263,7 @@ F 3 "" H 3150 3650 50  0001 C CNN
 	1    3150 3650
 	0    -1   -1   0   
 $EndComp
-Text GLabel 4900 3250 2    50   Input ~ 0
+Text GLabel 4900 3250 2    50   Output ~ 0
 ASTABLE-OUT
 Text GLabel 6950 4050 0    50   Input ~ 0
 ASTABLE-OUT
