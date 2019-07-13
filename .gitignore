@@ -1,2 +1,5 @@
 # ignore .DS_store file
 .DS_store
+
+# ignore other files
+title-block-details.txt
