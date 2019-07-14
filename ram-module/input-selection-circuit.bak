@@ -1,0 +1,94 @@
+EESchema Schematic File Version 4
+LIBS:ram-module-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74LS157 U?
+U 1 1 5D2B8FAF
+P 3575 3650
+F 0 "U?" H 3575 4731 50  0000 C CNN
+F 1 "74HC157" H 3575 4640 50  0000 C CNN
+F 2 "" H 3575 3650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS157" H 3575 3650 50  0001 C CNN
+	1    3575 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS157 U?
+U 1 1 5D2B97E5
+P 5125 3650
+F 0 "U?" H 5125 4731 50  0000 C CNN
+F 1 "74HC157" H 5125 4640 50  0000 C CNN
+F 2 "" H 5125 3650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS157" H 5125 3650 50  0001 C CNN
+	1    5125 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS157 U?
+U 1 1 5D2B9E6D
+P 6575 3675
+F 0 "U?" H 6575 4756 50  0000 C CNN
+F 1 "74HC157" H 6575 4665 50  0000 C CNN
+F 2 "" H 6575 3675 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS157" H 6575 3675 50  0001 C CNN
+	1    6575 3675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DIP_x08 SW?
+U 1 1 5D2BA8B4
+P 5650 5850
+F 0 "SW?" H 5650 6517 50  0000 C CNN
+F 1 "SW_DIP_x08" H 5650 6426 50  0000 C CNN
+F 2 "" H 5650 5850 50  0001 C CNN
+F 3 "~" H 5650 5850 50  0001 C CNN
+	1    5650 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D2BBA39
+P 3900 5875
+F 0 "SW?" H 3900 6160 50  0000 C CNN
+F 1 "SW_Push" H 3900 6069 50  0000 C CNN
+F 2 "" H 3900 6075 50  0001 C CNN
+F 3 "~" H 3900 6075 50  0001 C CNN
+	1    3900 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D2BBE77
+P 4400 6425
+F 0 "C?" H 4515 6471 50  0000 L CNN
+F 1 "C" H 4515 6380 50  0000 L CNN
+F 2 "" H 4438 6275 50  0001 C CNN
+F 3 "~" H 4400 6425 50  0001 C CNN
+	1    4400 6425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D2BC3FD
+P 4000 6450
+F 0 "R?" H 4070 6496 50  0000 L CNN
+F 1 "R" H 4070 6405 50  0000 L CNN
+F 2 "" V 3930 6450 50  0001 C CNN
+F 3 "~" H 4000 6450 50  0001 C CNN
+	1    4000 6450
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC245-mod
+D Octal BUS Transceivers, 3-State outputs
+K TTL BUS 3State
+F http://www.ti.com/lit/gpn/sn74LS245
+$ENDCMP
+#
+$CMP AS6C6264
+D 8k x 8 bit low power CMOS SRAM
+K memory SRAM
+F https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1616-TSOPI.pdf
+$ENDCMP
+#
+#End Doc Library
